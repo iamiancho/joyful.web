@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>나의 홈페이지</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
+    <style>
+        /* 배너 스타일 */
+        .banner {
+            background-color: gray;
+            color: white;
+            text-align: center;
+            padding: 50px;
+        }
+
+        /* 카드 간격 */
+        .card-container {
+            margin-top: 50px;
+        }
+        .card {
+            width: 200px;
+            height: 300px;
+            background-color: #f0f0f0;
+            border-radius: 10px;
+            transition: transform 0.3s;
+        }
+
+        .card:hover {
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+
+<body>
+    <!-- 배너 -->
+    <div class="banner">
+        <h1>심장을바치라고
+        </h1>
+        <h2>IAMIAN</h2>
+    </div>
+
+    <!-- 카드 -->
+    <div class="container card-container">
+        <div class="row">
+            <!-- 카드 - 독서 -->
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://cdn.pixabay.com/photo/2021/01/21/15/54/books-5937716_1280.jpg" class="card-img-top" alt="도서 이미지">
+                    <div class="card-body">
+                        <h5 class="card-title">독서</h5>
+                        <p class="card-text">다양한 분야의 책을 읽는 것을 좋아합니다.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- 카드 - 음악 -->
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://cdn.pixabay.com/photo/2016/11/22/19/15/audience-1850119_1280.jpg" class="card-img-top" alt="음악 이미지">
+                    <div class="card-body">
+                        <h5 class="card-title">음악</h5>
+                        <p class="card-text">다양한 장르의 음악을 즐기는 것을 좋아합니다.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- 카드 - 여행 -->
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://cdn.pixabay.com/photo/2018/09/02/13/41/hot-air-balloon-3648832_1280.jpg" class="card-img-top" alt="여행 이미지">
+                    <div class="card-body">
+                        <h5 class="card-title">여행</h5>
+                        <p class="card-text">새로운 장소를 탐험하는 것을 좋아합니다.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
+
